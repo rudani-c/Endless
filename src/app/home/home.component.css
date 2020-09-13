@@ -115,9 +115,24 @@ header {
     color: #5f5f5f;
 }
 
+@media only screen and (max-width: 93.75em) {
+    #showcase {
+        background: url(/assets/images/photo-couch.jpg) no-repeat center center/cover;
+    }
+}
+
 @media only screen and (max-width:48em) {
     .steps-block {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:31.25em) {
+    .showcase-content {
+        width: 80vw;
+    }
+    .showcase-sub-content {
+        width: 75vw;
     }
 }
 
@@ -136,11 +151,3 @@ header {
     }
 }
 
-@media only screen and (max-width:31.25em) {
-    .showcase-content {
-        width: 80vw;
-    }
-    .showcase-sub-content {
-        width: 75vw;
-    }
-}
