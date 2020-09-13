@@ -1,0 +1,23 @@
+.container {
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header {
+    background-color: #2f3237;
+    color: #50e3c2;
+    height: 2rem;
+}
+
+#showcase {
+    height: 95vh;
+}
+
+.hiw-section {
+    background-color: #f2f1ef;
+    padding: 2rem 0;
+    color: #000;
+}
