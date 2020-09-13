@@ -25,6 +25,14 @@
 </div>
 
 <section class="hiw-section">
-  <div class="container">
+    <div class="container">
+        <h3 class="hiw-title">How It Works</h3>
+        <div class="steps-block">
+          <div class="step" *ngFor="let step of stepsData">
+              <span class="step-number">0{{ step.stepNumber }}</span>
+              <p class="step-title">{{ step.title }}</p>
+              <p class="step-body">{{ step.body }}</p>
+          </div>
+      </div>
   </div>
 </section>
