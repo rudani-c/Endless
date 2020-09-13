@@ -22,11 +22,11 @@ header {
     height: 100%;
     width: 6rem;
     background-color: #50e3c2;
-    mask: url(/assets/images/logo-endless.svg) no-repeat center;
+    mask: url('../../assets/images/logo-endless.svg') no-repeat center;
 }
 
 #showcase {
-    background: url(/assets/images/photo-couch_2x.jpg) no-repeat center center/cover fixed;
+    background: url('../../assets/images/photo-couch_2x.jpg') no-repeat center center/cover fixed;
     height: 95vh;
 }
 
@@ -117,7 +117,7 @@ header {
 
 @media only screen and (max-width: 93.75em) {
     #showcase {
-        background: url(/assets/images/photo-couch.jpg) no-repeat center center/cover fixed;
+        background: url('../../assets/images/photo-couch.jpg') no-repeat center center/cover fixed;
     }
 }
 
