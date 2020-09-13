@@ -2,10 +2,15 @@
 
 A sample website for the fictitious company Endless developed using Angular 10.
 
-### Development server
+Hosting URL - [https://rudani-c.github.io/endless](https://rudani-c.github.io/endless)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### How to run locally:
 
+* install node.js 
+* install Angular cli using `npm i -g @angular/cli`
+* Run `npm install` in project directory
+* Run `ng build` ng serve to start the local dev server on http://localhost:4200/
+ 
 ### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
