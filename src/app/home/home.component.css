@@ -6,6 +6,19 @@
     padding-right: 2rem;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 6rem;
+    background-color: #50e3c2;
+    mask: url(/assets/images/logo-endless.svg) no-repeat center;
+}
+
 header {
     background-color: #2f3237;
     color: #50e3c2;
