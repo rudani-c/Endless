@@ -1,0 +1,92 @@
+{
+  "configVersion": 1,
+  "timestamp": 1600027026345,
+  "index": "/endless/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/endless/favicon.ico",
+        "/endless/index.html",
+        "/endless/main.799508ef40c1c5699c8e.js",
+        "/endless/manifest.webmanifest",
+        "/endless/polyfills.35a5ca1855eb057f016a.js",
+        "/endless/runtime.acf0dec4155e77772545.js",
+        "/endless/styles.24de46d37ee9943ff6f3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/endless/assets/icons/icon-128x128.png",
+        "/endless/assets/icons/icon-144x144.png",
+        "/endless/assets/icons/icon-152x152.png",
+        "/endless/assets/icons/icon-192x192.png",
+        "/endless/assets/icons/icon-384x384.png",
+        "/endless/assets/icons/icon-512x512.png",
+        "/endless/assets/icons/icon-72x72.png",
+        "/endless/assets/icons/icon-96x96.png",
+        "/endless/assets/images/logo-endless.svg",
+        "/endless/assets/images/photo-couch.jpg",
+        "/endless/assets/images/photo-couch_2x.jpg",
+        "/endless/logo-endless.8ec7e65fd7951a0c3957.svg",
+        "/endless/photo-couch.849417d95eeab9296564.jpg",
+        "/endless/photo-couch_2x.0db18f79ef0042a56edd.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/endless/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/endless/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/endless/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/endless/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/endless/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/endless/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/endless/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/endless/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/endless/assets/images/logo-endless.svg": "d427947664993cd5470f27a0c58a6bfd43e288e7",
+    "/endless/assets/images/photo-couch.jpg": "3efabb32b7a4990b5304a9f1601970c06d1f4519",
+    "/endless/assets/images/photo-couch_2x.jpg": "e65cf8e2aa18977a605614ff8ed320c41f3b2133",
+    "/endless/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/endless/index.html": "ee4b303673b24e46ab92f63e66137fadddce01fb",
+    "/endless/logo-endless.8ec7e65fd7951a0c3957.svg": "d427947664993cd5470f27a0c58a6bfd43e288e7",
+    "/endless/main.799508ef40c1c5699c8e.js": "c479ae91c74354c60fe2de89c5cc4bcc8389c963",
+    "/endless/manifest.webmanifest": "b81730dd8d2d976cfaa7a85e7f0d488c712972b8",
+    "/endless/photo-couch.849417d95eeab9296564.jpg": "3efabb32b7a4990b5304a9f1601970c06d1f4519",
+    "/endless/photo-couch_2x.0db18f79ef0042a56edd.jpg": "e65cf8e2aa18977a605614ff8ed320c41f3b2133",
+    "/endless/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
+    "/endless/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/endless/styles.24de46d37ee9943ff6f3.css": "f9dc868caba596e9427cec7e89a6ba23b6fff824"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
