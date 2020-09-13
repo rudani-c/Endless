@@ -62,7 +62,7 @@ header {
     background: #50e3c2;
     width: 10rem;
     padding: 0.3rem 1rem;
-    border-radius: 30px;
+    border-radius: 1.8rem;
     text-align: center;
     text-transform: uppercase;
     color: #000;
@@ -113,4 +113,34 @@ header {
 .step-body {
     margin-top: 0.5rem;
     color: #5f5f5f;
+}
+
+@media only screen and (max-width:48em) {
+    .steps-block {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-height:37.5em) {
+    .showcase-content {
+        padding-top: 1rem;
+    }
+    .showcase-content p {
+        margin-bottom: 0.8rem;
+    }
+
+    .large-text {
+        font-size: 1.5rem;
+        line-height: 1.1;
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media only screen and (max-width:31.25em) {
+    .showcase-content {
+        width: 80vw;
+    }
+    .showcase-sub-content {
+        width: 75vw;
+    }
 }
