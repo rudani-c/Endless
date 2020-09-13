@@ -26,7 +26,7 @@ header {
 }
 
 #showcase {
-    background: url(/assets/images/photo-couch_2x.jpg) no-repeat center center/cover;
+    background: url(/assets/images/photo-couch_2x.jpg) no-repeat center center/cover fixed;
     height: 95vh;
 }
 
@@ -117,7 +117,7 @@ header {
 
 @media only screen and (max-width: 93.75em) {
     #showcase {
-        background: url(/assets/images/photo-couch.jpg) no-repeat center center/cover;
+        background: url(/assets/images/photo-couch.jpg) no-repeat center center/cover fixed;
     }
 }
 
@@ -150,4 +150,3 @@ header {
         letter-spacing: 0.1rem;
     }
 }
-
